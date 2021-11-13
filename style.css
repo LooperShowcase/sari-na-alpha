@@ -1,0 +1,114 @@
+body {
+  background-color: rgb(11, 87, 149);
+}
+hr {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  height: 6px;
+}
+p {
+  color: white;
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: white;
+}
+h3 {
+  color: white;
+}
+
+div {
+  background-color: white;
+}
+#model_x {
+  color: black;
+}
+table,
+th,
+td,
+tr {
+  border: 3px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.cars-list {
+  color: #f00;
+}
+ol {
+  display: flex;
+  flex-direction: column;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#batata {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  float: right;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 40px;
+  color: green;
+}
+#ssss:hover {
+  transition: 4s;
+  transform: rotateZ(360deg);
+}

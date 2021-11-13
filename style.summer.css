@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(235, 190, 93);
+}
+hr {
+  color: black;
+  background-color: rgb(0, 255, 242);
+  height: 6px;
+}
+p {
+  color: rgb(0, 255, 242);
+}
+h1 {
+  color: rgb(0, 255, 242);
+}
+h2 {
+  color: rgb(0, 255, 242);
+}
+h3 {
+  color: rgb(0, 255, 242);
+}
+ul {
+  color: rgb(0, 255, 24);
+}
+div {
+  background-color: rgb(0, 255, 242);
+}
+
+#model_x {
+  color: black;
+}
